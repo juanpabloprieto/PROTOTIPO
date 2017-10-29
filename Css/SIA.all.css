@@ -1,0 +1,295 @@
+/**
+  Css by Juan Pablo Prieto
+email: prietojuanpablo763@gmail.com
+**/
+@charset "utf-8";
+/**importar archivo css**/
+@import "jquery-ui-1.10.1.custom.css";
+@import "ErrorMensaje.css";
+@import "Menu.css";
+@import "login-box.css";
+@import "Tooltip.css";
+@import "login.css";
+@import "jquery.dataTables.min.css";
+/*section*/
+.sectionEstado{
+     /*float: left;*/
+     width: 1280px;
+     height:450px;
+     margin-left: 0px;
+     margin-top: 0px;
+     padding: 10px;
+    border: 0px solid #999999;
+    background-color:#E0FFC1;
+     }
+         
+     .sectionEstadistica{
+     /*float: left;*/
+     width: 750px;
+     margin-left: 0px;
+     margin-top: 0em;
+     padding: 10px;
+    border: 0px solid #999999;
+    /*overflow-y: auto;*/
+     }
+     .sectionGrafico{
+     float: right;
+     width: 600px;
+     height:470px;
+     margin-left: 0em;
+     margin-top: -29em;
+     padding: 10px;
+    border: 0px solid #999999;
+    
+    }
+   #calendario{
+     float: right;
+     margin-left: 0em;
+     margin-top: -20em;
+     }
+     .sectionEstado1{
+     float:left;
+     width: 350px;
+     height:100px;
+     margin-left: 0px;
+     margin-top: 0em;
+     padding: 10px;
+    border: 0px solid #999999;
+    background-color:#E0FFC1;
+     }
+     .sectionTablas{
+     /*float: left;*/
+     width: 1280px;
+     height:480px;
+     margin-left: 0px;
+     margin-top: -10px;
+     padding: 10px;
+    border: 0px solid #999999;
+   	background:#f9f9f9;
+     }
+ .sectionSliderTemp{
+     float:left;
+     width: 200px;
+     height:430px;
+     margin-left: 8px;
+     margin-top: 0px;
+     padding: 10px;
+    border: 0px solid #999999;
+    background-color:#FFFFFF;
+     }
+     .sectionSliderHumedad{
+     float: left;
+     width: 240px;
+     height:430px;
+     margin-left: 0px;
+     margin-top: 0px;
+     padding: 10px;
+    border: 0px solid #999999;
+    background-color:#FFFFFF;
+     }
+     .sectionVentiCaliente{
+     float: right;
+     width: 185px;
+     height:430px;
+     margin-left: 0px;
+     margin-top: 0em;
+     padding: 10px;
+    border: 0px solid #999999;
+    background-color:#FFFFFF;
+     }
+     .sectionVentiFrio{
+     float: right;
+     width: 170px;
+     height:430px;
+     margin-left: 0px;
+     margin-top: 0em;
+     padding: 10px;
+    border: 0px solid #999999;
+    background-color:#FFFFFF;
+     }
+
+     .sectionAdd{
+    float: left;
+    /* float: right;*/
+     width: 390px;
+     height:460px;
+      /*text-align: center;*/
+     margin-left: 400px;
+     padding: 20px;
+     border: 0px solid #999999;
+     background-color:#1e4f8a;
+      margin-top: -15px;
+     }
+    .table1{
+    float: left;
+  /* float: right; */
+     width: 400px;
+     height:400px;
+      /*text-align: center;*/
+     margin-left: 5px;
+     padding: 20px;
+     border: 1px solid #999999;
+     background-color:#1e4f8a;
+     }
+     .table2{
+     float:right;
+     width: 800px;
+     height:460px;
+     margin-left: 0px;
+     margin-top: 0em;
+     padding: 10px;
+    border: 0px solid #999999;
+    background-color:#FFFFFF;
+    overflow-y: auto;
+     }
+     .table3{
+     margin-left: 23px;
+     padding: 20px;
+     margin-top: 0px;
+     }
+     table.tableCultivo{
+     margin-left: 0px;
+     padding: 0px;
+     margin-top: 0px;
+     font: 13px  Arial;
+     text-align: center;
+  vertical-align: middle !important;
+  background-color:#FFFFFF;
+  border: 0px  solid;
+ 
+  border-radius: 0;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  font-family: 'Segoe UI Light_', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  margin: auto;
+  color: inherit;
+  display: block;
+  float: left;
+  margin-right: 1px;
+          }
+        #columna{
+            background-color: #F3DCC0;
+        } 
+        
+    #estado{
+     margin-left: 75px;
+     margin-top: -20px;
+     font: 17px;
+     }
+
+     .labelModal{
+     color:#000000;
+      }
+      .label{
+     color:#FFFFFF;
+      }
+
+     .sectionVentiladores{
+     width: 390px;
+     height:430px;
+      /*text-align: center;*/
+     margin-left: 5px;
+     padding: 20px;
+     border: 1px solid #999999;
+
+     }
+ .progress-label {
+		float: left;
+		margin-left: 50%;
+		margin-top: 5px;
+		font-weight: bold;
+		text-shadow: 1px 1px 0 #fff;
+	}
+p{
+ font: 19px  sans-serif;
+}
+#error{
+ color:#FF6A22;
+ /*/**Hace que brille las letras 
+    text-shadow:0px 0px 20px #FFFF48,0px 0px 20px #FFFF80,0px 0px 20px #FFFF80;*/
+}
+#mjsRegistro,#mensajeError{
+ color:#FF8040;
+ /*/**Hace que brille las letras */
+   /* text-shadow:0px 0px 20px #FFFF48,0px 0px 20px #FFFF80,0px 0px 20px #FFFF80;*/
+}
+h3{
+ color:#FFA579;
+}
+#header{
+background-color:#FFFFFF;
+color:#008000;
+font: 19px  verdana;
+}
+#footer{
+background-color:#000000;
+color:#FFFFFF;
+/*font: 19px  verdana;*/
+}
+#icons {
+		margin: 0;
+		padding: 0;
+	}
+	#icons li {
+		margin: 2px;
+		position: relative;
+		padding: 4px 0;
+		cursor: pointer;
+		float: left;
+		list-style: none;
+	}
+	#icons span.ui-icon {
+		float: left;
+		margin: 0 4px;
+	}
+.btRegistro{
+     margin-left: 100px;
+     margin-top: 17px;
+     border: 0px solid #999999;
+
+     }
+form{
+text-align: center;
+}
+.logo{
+margin-left: 900px;
+margin-top: -8px;
+font: 60px;
+}
+.UpdateUsers{
+margin-top:0em ;    
+margin-left: 0px;
+width: 23em;
+background-color: #B9FFB9;
+}
+#actualizarCuenta{
+color:#FF0000;
+}
+.inver{
+color:#FF9F9F;
+}
+#ErrorEmail{
+color:#AE0000;
+}
+.labelConfig{
+color:#FF8951;
+margin-left: 200px;
+}
+.tableEstadisticas{
+width:600px;
+margin-left: 300px;
+font-size: 16px;
+margin-left:10px;
+}
+#divEstadisticas{
+margin-left: 0px;
+font-size: 21px;
+color:#C40000;
+}
+input[disabled]{background-color:#FFFF80;color:#000000;}
+.labelTempMax,#labelTempMax{margin-left: 45px;}
+
+

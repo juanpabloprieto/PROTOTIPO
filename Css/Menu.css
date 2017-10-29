@@ -1,0 +1,84 @@
+/***** menu *****/
+#nav {
+	width:100%;
+	height:55px;
+	background-color:#E0FFC1;
+    overflow:hidden;
+    margin-top: -5px;
+ }
+.menu li {
+ float:left;
+ position:relative;
+ 	/*background:url(../img/menu-spacer.gif) left top no-repeat;*/
+}
+
+.menu li a {
+	font-size:25px;
+	color:#FFFFFF;
+    text-decoration:none;
+     padding:12px 28px 12px 30px;
+}
+
+.menu li a.active,
+.menu > li > a:hover {color:#727e6b;
+background-color:#BDB76B;
+text-decoration:none;
+font: 20px  verdana;
+
+}
+.menu > li:first-child > a:hover{
+background-position:center 25px;
+text-decoration:none;
+}
+li{
+color:#6B8E23;
+}
+.menu a:hover{
+ /*/**Hace que brille las letras */
+    text-shadow:0px 0px 20px #FFFF80,0px 0px 20px #FFFF80,0px 0px 20px #FFFF80;
+}
+.NavAnterior{
+  width:60px;
+  height:60px;
+  margin-left: 660px;
+}
+.NavSiguiente{
+  width:60px;
+  height:60px;
+  margin-left: 0px;
+}
+.filtro{
+  margin-left: 100px;
+}
+.fechaHora{
+ margin-left: -65px;
+}
+#NavInicio{
+color:#FFFFFF;
+margin-top: 21px;
+}
+.NavAnterior1{
+  width:60px;
+  height:60px;
+  margin-left: 375px;
+}
+.NavSiguiente1{
+  width:60px;
+  height:60px;
+  margin-left: 0px;
+}
+#NavAdmin{
+color:#FFFFFF;
+margin-top: 21px;
+}
+#cerrarSesion{
+ width:54px;/*ancho*/
+ height:48px; /*alto*/
+}
+.div_emergencia{
+color:#FF0000;
+}
+.cerrarSesion{
+ margin-top: -10px;
+ margin-left: -10px;
+}
